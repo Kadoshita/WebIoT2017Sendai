@@ -14,16 +14,25 @@
 
 	<script src="./bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="./libs/config.js"></script>
+	<script src="./libs/dconnectsdk-2.2.0.js"></script>
 	<script src="./js/main.js"></script>
 </head>
 
 <body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					<img alt="Brand" src="./img/logo.png" class="navbar-logo">
+				</a>
+				<h3 class="navbar-text">空席状況表示</h3>
+			</div>
+		</div>
+	</nav>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<textarea id="data">
-
-				</textarea>
 				<div id="table"></div>
 			</div>
 		</div>
